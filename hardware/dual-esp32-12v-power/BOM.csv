@@ -1,0 +1,31 @@
+Reference,Qty,Description,Suggested Part,Package/Footprint
+J1,1,DC barrel jack input 6-15V DC 5.5x2.1mm center-positive,CUI PJ-102AH or equivalent,BarrelJack_CUI_PJ-102AH_Horizontal
+D1,1,Unidirectional TVS diode - input transient/surge protection,P6KE15A (600W 15V standoff),D_DO-15
+D2,1,Reverse-polarity protection diode (series),1N5822 3A/40V Schottky,D_DO-201AD
+F1,1,Resettable PTC fuse - shared input overcurrent protection ~2A hold,Bourns MF-RG400 or equivalent,Fuse radial ~5mm lead spacing
+C1,1,Input decoupling/ESD capacitor,100nF 50V ceramic disc,C_Disc 5mm pitch
+LED1,1,Power-good indicator LED (input present),3mm THT green LED,LED_D3.0mm
+R1,1,LED1 series resistor (~12V rail),1k ohm 1/4W,R_Axial DIN0207 7.62mm
+UA,1,Channel A 5V fixed synchronous buck regulator,LM2596T-5.0 (TO-220-5),TO-220-5_Vertical
+CA1,1,Channel A input bulk capacitor,100uF 25V electrolytic radial,CP_Radial D8.0mm P3.5mm
+DA1,1,Channel A catch/freewheeling diode,1N5822 3A/40V Schottky,D_DO-201AD
+LA,1,Channel A power inductor,33uH >=3A saturation current,Radial/axial THT ~15mm
+CA2,1,Channel A output bulk capacitor,220uF 25V electrolytic radial,CP_Radial D8.0mm P3.5mm
+RA1,1,Channel A EN pull-up resistor (default-off),10k ohm 1/4W,R_Axial DIN0207 7.62mm
+SWA,1,Channel A ON/OFF slide switch (wired as SPST),C&K OS102011MS2Q (SPDT) or equivalent mini slide switch,SW_Slide_SPDT THT
+FA1,1,Channel A output PTC fuse ~500mA hold,Bourns MF-RHT050 or equivalent,Fuse radial small
+RA2,1,Channel A LED series resistor,330 ohm 1/4W,R_Axial DIN0207 7.62mm
+LEDA,1,Channel A power-good indicator LED,3mm THT (red or blue),LED_D3.0mm
+JA,1,Channel A output connector 5V/GND,2-pin 2.54mm pin header,PinHeader_1x02_P2.54mm_Vertical
+UB,1,Channel B 5V fixed synchronous buck regulator,LM2596T-5.0 (TO-220-5),TO-220-5_Vertical
+CB1,1,Channel B input bulk capacitor,100uF 25V electrolytic radial,CP_Radial D8.0mm P3.5mm
+DB1,1,Channel B catch/freewheeling diode,1N5822 3A/40V Schottky,D_DO-201AD
+LB,1,Channel B power inductor,33uH >=3A saturation current,Radial/axial THT ~15mm
+CB2,1,Channel B output bulk capacitor,220uF 25V electrolytic radial,CP_Radial D8.0mm P3.5mm
+RB1,1,Channel B EN pull-up resistor (default-off),10k ohm 1/4W,R_Axial DIN0207 7.62mm
+SWB,1,Channel B ON/OFF slide switch (wired as SPST),C&K OS102011MS2Q (SPDT) or equivalent mini slide switch,SW_Slide_SPDT THT
+FB1,1,Channel B output PTC fuse ~500mA hold,Bourns MF-RHT050 or equivalent,Fuse radial small
+RB2,1,Channel B LED series resistor,330 ohm 1/4W,R_Axial DIN0207 7.62mm
+LEDB,1,Channel B power-good indicator LED,3mm THT (red or blue),LED_D3.0mm
+JB,1,Channel B output connector 5V/GND,2-pin 2.54mm pin header,PinHeader_1x02_P2.54mm_Vertical
+MH1-MH4,4,M3 mounting holes (unplated),M3 screw/standoff,MountingHole_3.2mm_M3
